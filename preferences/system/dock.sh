@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
-# Set the icon size of Dock items to 56 pixels
+# Set the icon size of Dock items to 48 pixels
 defaults write com.apple.dock tilesize -int 48
 
 # Automatically hide and show the Dock
-defaults write com.apple.dock autohide -bool false
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock autohide-time-modifier -float 2;
 
 # Minimize windows into their application’s icon
 defaults write com.apple.dock minimize-to-application -bool true
@@ -17,6 +18,12 @@ defaults write com.apple.dock show-process-indicators -bool true
 
 # Don’t animate opening applications from the Dock
 defaults write com.apple.dock launchanim -bool false
+
+# Indicate hidden app icons
+defaults write com.apple.dock showhidden -bool true;
+
+# Use magnification slider
+defaults write com.apple.dock largesize -int 64;
 
 ## Obsolete since macOS 10.14 (Mojave).
 # Create recent items stack
