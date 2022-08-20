@@ -1,8 +1,8 @@
 # Automate the MacOS stuff
 
-This repository contains **scripts** that automate the setup of a new macbook.
+These scripts will help me to automatoe the setup of my macbook.
 
-PS: you can find also a [Guide](GUIDE.md) to do it manually if you prefer
+Also, you can follow this [guide](GUIDE.md) instead if you don't want to use the script.
 
 These scripts will automate the following:
 
