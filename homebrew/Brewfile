@@ -1,24 +1,38 @@
 cask_args appdir: '~/Applications'
 tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/cask-fonts"
+tap "homebrew/core"
+
 brew "exa"
 brew "git"
 brew "git-delta"
 brew "mas"
 brew "n"
+brew "python@3.9"
 brew "trash"
 brew "wget"
 brew "z"
+
 cask "1password", args: { appdir: "/Applications" }
+cask "anki"
+cask "docker"
 cask "firefox"
+cask "flux"
+cask "font-hack-nerd-font"
+cask "font-monoid-nerd-font"
 cask "google-chrome"
 cask "iterm2"
 cask "mark-text"
 cask "netnewswire"
+cask "notunes"
+cask "postman"
+cask "raycast"
+cask "spotify"
 cask "transmission"
 cask "visual-studio-code"
+cask "vlc"
+
 mas "Magnet", id: 441258766
 mas "SnippetsLab", id: 1006087419
 mas "Unsplash Wallpapers", id: 1284863847
